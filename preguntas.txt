@@ -9,7 +9,7 @@
         + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
         + FullyQualifiedErrorId : CommandNotFoundException
 // Lo solucione gracias a Co-pilot. Haciendolo manualmente aunque tambien me dio otro comandos para hcer desde la consola. EJ: New-Item -Path "app/routes/contacts.$contactId.tsx" -ItemType File
-3. Despues del paso de la routas el rersultado no se ve nada bien, como en del tutorial
+3. Despues del paso de la routas el rersultado no se ve nada bien, como en del tutorial. Fallo mio mal colocado.
 4. Necesito una  buena explicacion del proceso Loading data. Acontinuacion lo que creo que hace:
     Usaremos  loader y useLoaderData para cargar y recojer en formato json unos datos.
     Me confunde esta parte: 
@@ -21,5 +21,6 @@
         export default function App() {
         const { contacts } = useLoaderData();
     Se declaran 2 constantes que se llama igual? porque la segunda esta entre {}? no seria mas logico algo como: const nombredelaConst = useLoaderData({ loader.contacts }); o algo similar?
+    Despues de una explicacion de copilot creo que entiendo, aun asi repasar con Javier.
 5. En la linea 71 hay algo que no entiendo.
 Me quede en URL PARAMS una mierda esto es en 30 minutos mas bien en 30 meses!!!!
