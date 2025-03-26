@@ -1,0 +1,25 @@
+1. En internet me dice que el framework ya no se llama Remix sino REACT ROUTER V7. He seguido el tutual de Remix aun asi
+2. Al aplicar un comando en el tutorial aparece el siguiente error:
+    PS C:\Users\Secretaria COI\Desktop\SAULO\WEB\RemixTutorial\my-remix-app> touch app/routes/contacts.\$contactId.tsx
+    touch : El término 'touch' no se reconoce como nombre de un cmdlet, función, archivo de script o 
+    programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de        
+    acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+    En línea: 1 Carácter: 1
+    + ~~~~~
+        + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+        + FullyQualifiedErrorId : CommandNotFoundException
+// Lo solucione gracias a Co-pilot. Haciendolo manualmente aunque tambien me dio otro comandos para hcer desde la consola. EJ: New-Item -Path "app/routes/contacts.$contactId.tsx" -ItemType File
+3. Despues del paso de la routas el rersultado no se ve nada bien, como en del tutorial
+4. Necesito una  buena explicacion del proceso Loading data. Acontinuacion lo que creo que hace:
+    Usaremos  loader y useLoaderData para cargar y recojer en formato json unos datos.
+    Me confunde esta parte: 
+        export const loader = async () => {
+        const contacts = await getContacts();
+        return json({ contacts });
+        };
+
+        export default function App() {
+        const { contacts } = useLoaderData();
+    Se declaran 2 constantes que se llama igual? porque la segunda esta entre {}? no seria mas logico algo como: const nombredelaConst = useLoaderData({ loader.contacts }); o algo similar?
+5. En la linea 71 hay algo que no entiendo.
+Me quede en URL PARAMS una mierda esto es en 30 minutos mas bien en 30 meses!!!!
