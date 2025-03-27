@@ -23,4 +23,9 @@
     Se declaran 2 constantes que se llama igual? porque la segunda esta entre {}? no seria mas logico algo como: const nombredelaConst = useLoaderData({ loader.contacts }); o algo similar?
     Despues de una explicacion de copilot creo que entiendo, aun asi repasar con Javier.
 5. En la linea 71 hay algo que no entiendo.
+6. A partir de el paso Data mutations, no entiendo nada.
+7. No se si hice correctamente el paso Active Link Styling desconozco si hay solo que añadir NAvLink sin borrar el Link o borrandolo?
+8.Los codigos del tutorial aveces añaden y otras veces sutituyen y no lo deja claro, tiene que usar la intucion.
+9. Los textos usan muchisimo tecnicismos y no usan ninguna analogia que ayuda al entendimiento.
+10. No se que hacemos en el apartado Synchronizing URLs
 Me quede en URL PARAMS una mierda esto es en 30 minutos mas bien en 30 meses!!!!
